@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "177514912476",
+    "firebase_url": "https://cintic-proj.firebaseio.com",
+    "project_id": "cintic-proj",
+    "storage_bucket": "cintic-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177514912476:android:df0ae1a7ab9ee3b6",
+        "android_client_info": {
+          "package_name": "com.cintic.mhmdlogan.cintic_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177514912476-biad8suvfv3kbr4fkf5sv9b0lh9dappn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cintic.mhmdlogan.cintic_proj",
+            "certificate_hash": "29a4f929d4f6643698ba50d49dc33d0e21faffd4"
+          }
+        },
+        {
+          "client_id": "177514912476-e5h42iqula8p55hklttued5nhjkvdrko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdSp1sR5wL6hp99pOgGX3-5r9Lsx8Yd4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177514912476-e5h42iqula8p55hklttued5nhjkvdrko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

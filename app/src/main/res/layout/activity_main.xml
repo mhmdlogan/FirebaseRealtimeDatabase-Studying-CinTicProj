@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cintic.mhmdlogan.cintic_proj.MainActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/A1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="A1"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/A2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="A2"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/A3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="A3"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/A4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="A4"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/A5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="A5"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/B1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B1"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/B2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B2"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/B3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B3"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/B4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B4"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/B5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B5"
+                android:layout_margin="2dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <ListView
+            android:scrollbars="vertical"
+            android:layout_marginTop="5dp"
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:id="@+id/txtName"
+                        android:background="#DCDCDC"
+                        android:hint="  Enter your name ...   " />
+
+                    <EditText
+                        android:layout_marginTop="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/txtComment"
+                        android:background="#DCDCDC"
+                        android:hint="  Enter your comment"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#808080"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Comment"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
